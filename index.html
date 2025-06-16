@@ -6,21 +6,30 @@
   <title>Steve Raffner – Portfolio</title>
   <style>
     body {
-      margin:0;
-      padding:0;
-      background: #121212;
-      color: #EEE;
+      margin: 0;
+      padding: 0;
+      background: #FFFFFF;
+      color: #121212;
       font-family: 'Helvetica Neue', Arial, sans-serif;
-      display:flex;
-      flex-direction:column;
-      align-items:center;
-      justify-content:center;
-      min-height:100vh;
-      text-align:center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background: #FFF;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
     .logo {
-      width: 120px;
-      margin-bottom: 1.5rem;
+      width: 100px;
+      margin-top: -60px;
+      margin-bottom: 2rem;
     }
     h1 {
       font-size: 2.5rem;
@@ -28,11 +37,11 @@
       color: #FFD100;
     }
     p.bio {
-      font-size:1.1rem;
+      font-size: 1.1rem;
       max-width: 600px;
-      color: #CCC;
-      line-height:1.5;
-      margin-bottom:2rem;
+      color: #333;
+      line-height: 1.5;
+      margin-bottom: 2rem;
     }
     .links a {
       display: inline-block;
@@ -51,15 +60,17 @@
     footer {
       margin-top: 3rem;
       font-size: 0.9rem;
-      color: #555;
+      color: #777;
     }
   </style>
 </head>
 <body>
+  <!-- Mets ici l’URL de ton avatar GitHub -->
+  <img src="URL_AVATAR_GITHUB" alt="Avatar Steve Raffner" class="avatar" />
   <img src="https://www.raffner.com/assets/logo-yellow.png" alt="Logo Steve Raffner" class="logo" />
   <h1>Steve Raffner</h1>
   <p class="bio">
-    Functional artist & creative technologist with over 20 years of experience.
+    Functional artist & creative technologist with over 20 years of experience.<br>
     I transform bold ideas into tangible, impactful products through elegant design, innovation, and attention to detail.
   </p>
   <div class="links">
